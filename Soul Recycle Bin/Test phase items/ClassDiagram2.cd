@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoulCenterProject.Modules.Ai.Services.AiModelTools">
+    <Position X="3.5" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Class Name="SoulCenterProject.Modules.Ai.Services.AiModelTools.SoulTask" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\Ai\Services\AiModelTools.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="SoulCenterProject.Modules.Ai.Services.AiModelTools.SoulSubtask" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Modules\Ai\Services\AiModelTools.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEgAAAEIAQAAAAAEAAAQAgAAAAABAAA=</HashCode>
+      <FileName>Modules\Ai\Services\AiModelTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

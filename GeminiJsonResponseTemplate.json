@@ -1,0 +1,38 @@
+﻿{
+    "contents": [ // This is the beginning of the "contents" array. It holds conversation history and the latest request.
+        {
+            "parts": [ // Each "Content" object has a "parts" array containing individual message components.
+                {
+                    // This section represents a "Part" object. It has a union field "data" where only one of the following keys should be present at a time. 
+                    "text": "string", // Placeholder for inline text.
+                }
+            ],
+            "role": "string" // Placeholder for the role (either 'user' or 'model'). 
+        }
+    ] ,
+    "safetySettings": [ // Array for specifying safety settings.
+        {
+            "category": "HARM_CATEGORY_UNSPECIFIED", //  Placeholder for the harm category. Replace with a valid enum.
+            "threshold": "HARM_BLOCK_THRESHOLD_UNSPECIFIED" // Placeholder, replace with a valid "HarmBlockThreshold" enum.
+        }
+    ],
+    "systemInstruction": { // Developer-set system instructions for the model.
+        "parts": [ // Similar to "contents", contains parts of the instruction message.
+            {
+                "text": "string" 
+            }
+        ],
+        "role": "string" // Typically not needed for system instructions, can be omitted.
+    },
+    "generationConfig": { // Configuration for text generation.
+        "stopSequences": [
+            "string" // Placeholder for stop sequences to terminate generation.
+        ],
+        "responseMimeType": "string", // Placeholder for the MIME type of the response. 
+        "candidateCount": 0, // Placeholder for the number of response candidates.
+        "maxOutputTokens": 0, // Placeholder for the maximum number of tokens in the response.
+        "temperature": 0, // Placeholder for the temperature value (controls randomness).
+        "topP": 0, //  Placeholder for the top_p value (cumulative probability for sampling).
+        "topK": 0 // Placeholder for the top_k value (number of tokens to consider during sampling).
+    }
+}
